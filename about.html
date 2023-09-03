@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Venkateswara Clothes And ReadyMade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/5989eab22b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="download (1).png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="types.html">TYPES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Porandla Shivaprasad,</h1>
+                <p> founder of Sri Venkateswara Clothes and Readymade,
+                    provides the best quality products in south india without any doubt.
+                    We provide the best color patterns. These garments are imported from
+                    San Fransisco, U.S.A, North America. So many customers are satisfied with
+                    our quality. We have the best Designs around the South India</p>
+                    <a href="index.html" class="hero-but red-but">EXPLORE NOW</a>
+
+            </div>
+            <div class="about-col">
+                <img src="aboutus.png">
+            </div>
+        </div>
+
+    </section>
+
+    
+
+    <!----Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>To get your favourite pair of clothes, Visit Us using below links. Thank You.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made By <i class="fa-solid fa-heart"></i> Yaswanth Porandla.</p>
+    </section>
+
+
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

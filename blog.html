@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Venkateswara Clothes And ReadyMade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/5989eab22b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="download (1).png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="types.html">TYPES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Services</h1>
+    </section>
+
+    <!-----Blog page content-->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="blogl.png">
+                <h2>We Have Done More Than 100 Online Services Through Out The World</h2>
+                <p>As we always mention, we provide services for online delivery. We can delivery to abroad contries also.
+                    For this services, we may charge extra amount. So kindly read all the instruction carefully.
+                    We have a good team for the delivery. For the fast deliveries, you can take the special subscriptions.
+                    You can get the subscription details later! We will upload it. Mainly you can shop from anywhere on this site.
+                </p>
+                <br>
+                <p>And we’re not alone. Last year, 80% of Americans shopped online at least monthly, and 5% were shopping online daily, Big Commerce reported. For many of us, online shopping has become a routine part of daily life, with huge impact on a global scale. Global ecommerce sales have skyrocketed over the last four years: According to Statista, in 2014, annual online sales totalled $1.3 billion USD worldwide; by last year, they’d doubled to $2.8 billion; and by 2021, they’re expected to nearly double again to $4.48 billion. That’s 17.5% of retail sales worldwide.</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter email">
+                        <textarea  rows="10" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-but red-but">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Countries We Provide Services</h3>
+                <div>
+                    <span>India</span>
+                    <span>free</span>
+                </div>
+                <div>
+                    <span>U.S.A</span>
+                    <span>70</span>
+                </div>
+                <div>
+                    <span>Russia</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>pakistan</span>
+                    <span>5</span>
+                </div>
+                <div>
+                    <span>France</span>
+                    <span>20</span>
+                </div>
+                <div>
+                    <span>Mexico</span>
+                    <span>60</span>
+                </div>
+                <div>
+                    <span>New York</span>
+                    <span>55</span>
+                </div>
+                <div>
+                    <span>Japan</span>
+                    <span>17</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+   
+    
+
+
+    <!----Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>To get your favourite pair of clothes, Visit Us using below links. Thank You.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made By <i class="fa-solid fa-heart"></i> Yaswanth Porandla.</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
